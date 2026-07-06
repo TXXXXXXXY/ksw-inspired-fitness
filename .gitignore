@@ -1,0 +1,18 @@
+# Exercise dataset (not included, referenced only)
+exercises-dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.bak
