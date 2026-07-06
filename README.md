@@ -1,4 +1,4 @@
-# KSW Fitness Coach Skill / 凯圣王健身教练 Skill
+# KSW Inspired Fitness / 凯圣王启发的健身教练 Skill
 
 <div align="center">
 
@@ -86,7 +86,7 @@ This skill is **platform-agnostic** — it works with any AI agent that supports
 ### Step 1: Get the files / 获取文件
 
 ```bash
-git clone https://github.com/TXXXXXXXY/ksw-fitness-skill.git
+git clone https://github.com/TXXXXXXXY/ksw-inspired-fitness.git
 ```
 
 Or click **Code → Download ZIP** on the GitHub page.
@@ -102,17 +102,17 @@ Copy the folder to your skills directory:
 
 ```
 # Windows
-%USERPROFILE%\.qoderworkcn\skills\ksw-fitness-skill\
+%USERPROFILE%\.qoderworkcn\skills\ksw-inspired-fitness\
 
 # macOS / Linux
-~/.qoderworkcn/skills/ksw-fitness-skill\
+~/.qoderworkcn/skills/ksw-inspired-fitness\
 ```
 
 Restart QoderWork. The skill auto-loads when you mention fitness topics.
 
 重启 QoderWork，提到健身话题时自动加载。
 
-> Folder name must match the `name` field in SKILL.md (`ksw-fitness-skill`).
+> Folder name must match the `name` field in SKILL.md (`ksw-inspired-fitness`).
 > 文件夹名必须与 SKILL.md 的 `name` 字段一致。
 </details>
 
@@ -183,6 +183,24 @@ This skill covers four layers of fitness coaching knowledge:
 2. **Split Logic** — Why Push/Pull/Legs works, optimal arrangement, recovery intervals / **分化逻辑** — 推拉腿为什么有效、最优排列、恢复间隔
 3. **Exercise Sequencing** — Which combinations synergize (1+1>2) vs. interfere / **动作编排** — 哪些组合协同增强、哪些互相干扰
 4. **Individual Adaptation** — Injury substitutions, experience-based progressions, goal-specific adjustments / **个体适配** — 伤病替代、经验分级进阶、目标定制调整
+
+---
+
+## Content Attribution / 内容来源说明
+
+This skill is **inspired by** 凯圣王's teaching methodology, but is not exclusively his content. Here's the breakdown:
+
+本技能的**核心方法论**来自凯圣王的教学体系，但并非全部内容都源自他。具体构成如下：
+
+| Source / 来源 | Proportion / 占比 | Content / 内容 |
+|------|------|------|
+| **凯圣王's methodology** | ~25-35% | 3-split training system, carb cycling formulas (223 method), 3-stage warm-up, training philosophy, posture correction, exercise cues from his videos / 三分化训练体系、碳循环223公式、三阶段热身、训练理念、体态纠正、视频中的动作要领 |
+| **[ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset)** | ~45-55% | 1,324 exercises with muscle synergy data, injury-safe substitutions, expanded exercise library with Chinese instructions / 1,324个动作的肌肉协同数据、伤病替代方案、扩展动作库 |
+| **General exercise science** | ~15-25% | Programming logic, progressive overload principles, split arrangement theory, recovery protocols / 训练编排逻辑、渐进超负荷原则、分化排列理论、恢复方案 |
+
+> **Note / 说明:** 凯圣王's content forms the **soul** of this skill — his unique training philosophy, diet system, and methodology distinguish it from generic fitness apps. The ExerciseDB data and exercise science knowledge provide the **backbone** that makes the coaching logic work.
+>
+> 凯圣王的内容是这个技能的**灵魂** —— 他独特的训练理念、饮食体系和方法论是区别于通用健身工具的关键。ExerciseDB 数据和通用运动科学知识则提供了让教练逻辑运转的**骨架**。
 
 ---
 
