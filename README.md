@@ -85,8 +85,9 @@ ksw-fitness-skill/
 
 ### Steps / 步骤
 
-1. Download or clone this repository
-2. Copy the entire folder to your QoderWork skills directory:
+1. Clone or download this repository
+2. **Rename** the cloned folder to `ksw-fitness-skill`（如果克隆后文件夹名不同，必须重命名为此名称。QoderWork 通过文件夹名识别 Skill）
+3. Copy the folder to your QoderWork skills directory:
 
 ```
 # Windows
@@ -96,8 +97,12 @@ ksw-fitness-skill/
 ~/.qoderworkcn/skills/ksw-fitness-skill/
 ```
 
-3. Restart QoderWork — the skill will auto-load when you mention fitness-related topics
-4. 重启 QoderWork，当你提到健身相关话题时，技能会自动加载
+4. Restart QoderWork — the skill will auto-load when you mention fitness-related topics
+5. 重启 QoderWork，当你提到健身相关话题时，技能会自动加载
+
+> **Important / 注意:** The folder name **must** match the `name` field in `SKILL.md` frontmatter (`ksw-fitness-skill`). If they don't match, the skill will not load.
+>
+> **注意：** 文件夹名**必须**与 `SKILL.md` 中 frontmatter 的 `name` 字段（`ksw-fitness-skill`）一致，否则 Skill 无法加载。
 
 ---
 
